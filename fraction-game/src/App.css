@@ -1,0 +1,23 @@
+/* App.css */
+.app {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #4738d0;
+  margin-bottom: 1rem;
+}
+
+.instructions {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #3368d1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+}
+
+.game {
+  background: rgb(214, 166, 198);
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 12px;
+  max-width: 900px;
+  max-height: 900px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.card {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: #5955da;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card.selected {
+  border-color: #38bdf8;
+  background-color: #bae6fd;
+}
+
+.countdown {
+  height: 10px;
+  background-color: #ddd;
+  margin: 1rem 0;
+}
+
+.bar {
+  height: 10px;
+  background-color: #4a6cb6;
+  transition: width 1s linear;
+}
+
+.result.success {
+  color: green;
+  font-weight: bold;
+}
+
+.result.fail {
+  color: red;
+  font-weight: bold;
+}
